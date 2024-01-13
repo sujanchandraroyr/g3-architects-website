@@ -119,6 +119,52 @@ main .teams-container{
     line-height: 1.5rem;
     margin-top: 20px;
 }
+/* tean-container section style end */
+
+/* Features container section style start */
+
+/* Features container section style end */
+
+/* Some Facts container section style start */
+.facts{
+    margin: 50px 0px;
+}
+.facts .facts-container-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.facts .facts-container-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.facts .facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.facts-card-container .card-stats{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-card-container .card-title{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
 
 /* Media Qualy */
 
