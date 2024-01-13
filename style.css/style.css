@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-button{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1.4rem;
+    padding: 20px 25px;
+    font-weight: 600;
+    border: 0;
+    margin: 40px 0px;
+}
+/* shared style  */
+
+/* header style start */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #131313;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    }
+nav > ul{
+    display: flex;
+    }
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav li a{
+    color: #424242;
+}
+.banner{
+    text-align: center;
+}
+.banner-contant{
+    max-width: 860px;
+    text-align: center;
+    margin: 0 auto;
+    }
+.banner-contant .banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.banner-contant .banner-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.banner > img{
+    width: 100%;
+}
+/* Header style End */
+
+/* Media Qualy */
+
+/* Mobile device */
+@media screen and (max-width:576px) {
+    header{padding: 20px;
+}
+nav{
+    flex-direction: column;
+}
+}
+/* Tablet or Mediam device */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
