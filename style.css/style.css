@@ -122,6 +122,53 @@ main .teams-container{
 /* tean-container section style end */
 
 /* Features container section style start */
+.features-container{
+    display: flex;
+    margin-top: 120px;
+    gap: 100px;
+}
+.feature-contant .feature-contant-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: normal;
+    border-left: 3px solid #FF900E;
+    padding-left: 24px;
+}
+.feature-contant .feature-contant-description{
+    padding-top: 24px;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem; 
+}
+.feature-contant .card{
+    padding: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features-container .feature-img{}
+.feature-img .ten-years-badge{
+    width: 342px;
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF900E;
+    padding: 45px 42px;
+}
+.ten-years-badge h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+.ten-years-badge p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 
 /* Features container section style end */
 
